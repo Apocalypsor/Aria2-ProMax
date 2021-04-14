@@ -1,0 +1,30 @@
+name: Update
+
+on:
+  workflow_dispatch:
+  
+  push:
+    branches:
+      - master
+    paths:
+      - .github/workflows/Docker-Update.yaml
+  
+  schedule:
+    - cron: 21 4 * * *
+
+jobs:
+  Docker-Update:
+    name: Update Dockerfile
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Update Aria2
+      run: |
+        docker pull p3terx/aria2-pro > /tmp/msg
+        u_hash=$(cat /tmp/msg | grep Digest: | sed "s/Digest: sha256://")
+        [ $u_hash ] && sed -i "s/^ARG UPSTEAM_HASH=.*/ARG UPSTEAM_HASH=$u_hash/g" Dockerfile
+    - name: Push
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Update Dockerfile
+        skip_dirty_check: false

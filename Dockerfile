@@ -1,5 +1,7 @@
 FROM p3terx/aria2-pro
 
+ARG UPSTEAM_HASH=
+
 COPY rootfs /
 
 RUN apk add --no-cache --update nodejs ipset git npm iptables \
