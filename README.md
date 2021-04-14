@@ -3,7 +3,7 @@
 Enhanced Aria2-Pro:
 
 1. Ban leechers
-2. Anime Tracker
+2. Anime trackers
 
 ## Example of `docker-compose.yaml`
 
