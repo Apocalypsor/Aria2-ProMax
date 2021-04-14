@@ -1,0 +1,33 @@
+on:
+  workflow_dispatch:
+  
+  push:
+    branches:
+      - master
+    paths:
+      - .github/workflows/Tracker.yaml
+  
+  schedule:
+    - cron: 23 8 * * *
+
+jobs:
+  Update-Tacker:
+    runs-on: ubuntu-latest
+    name: Update Tracker
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: tracker
+        token: ${{ secrets.REPO_TOKEN }}
+    - name: Smartdns GFWList
+      run: |
+        TrackersListCollection=$(curl -sSL https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all_aria2.txt)
+        AnimeTrackerList=$(curl -sSL https://raw.githubusercontent.com/DeSireFire/animeTrackerList/master/ATaria2_all.txt)
+        List="$TrackersListCollection,$AnimeTrackerList"
+        echo $List | sed -e "/,,/d" -e "s/,$//g" | tr -d "\n" > all.list
+    - name: Push
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        branch: tracker
+        commit_message: Update Trackers
+        skip_dirty_check: false
