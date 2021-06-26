@@ -1,3 +1,5 @@
+name: Update Trackers
+
 on:
   workflow_dispatch:
   
