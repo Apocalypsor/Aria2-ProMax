@@ -17,21 +17,21 @@ jobs:
     name: Update Dockerfile
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Update Aria2
-      run: |
-        docker pull p3terx/aria2-pro > /tmp/msg
-        u_hash=$(cat /tmp/msg | grep Digest: | sed "s/Digest: sha256://")
-        [ $u_hash ] && sed -i "s/^ARG UPSTEAM_HASH=.*/ARG UPSTEAM_HASH=$u_hash/g" Dockerfile
-    - name: Update aria2_ban_thunder
+      - uses: actions/checkout@v2
+      - name: Update Aria2
+        run: |
+          docker pull p3terx/aria2-pro > /tmp/msg
+          u_hash=$(cat /tmp/msg | grep Digest: | sed "s/Digest: sha256://")
+          [ $u_hash ] && sed -i "s/^ARG UPSTEAM_HASH=.*/ARG UPSTEAM_HASH=$u_hash/g" Dockerfile
+      - name: Update aria2_ban_thunder
         run: |
           latest_commit=$(curl -s -N https://api.github.com/repos/makeding/aria2_ban_thunder/commits | grep '"sha":' | sed -E 's/.*"([^"]+)".*/\1/' | head -1)
           [ $latest_commit ] && sed -i "s/ARIA2_BAN_THUNDER_COMMIT=.*\\\/ARIA2_BAN_THUNDER_COMMIT=$latest_commit \\\/g" Dockerfile
-    - name: Push
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Update Dockerfile
-        skip_dirty_check: false
-        commit_user_name: Action Bot
-        commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
-        commit_author: Action <actions@github.com>
+      - name: Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update Dockerfile
+          skip_dirty_check: false
+          commit_user_name: Action Bot
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: Action <actions@github.com>
