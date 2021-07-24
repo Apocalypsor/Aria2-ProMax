@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-LOCAL_IP=$(/sbin/ip route|awk '/default/ { print $3 }')
+LOCAL_IP=$(cat /etc/hostname)
 
 cat <<EOF > /Aria2-Ban/config.js
 module.exports = {
