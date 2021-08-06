@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ REPO_TOKEN }}
+          token: ${{ secrets.REPO_TOKEN }}
           fetch-depth: 0
           submodules: true
       - name: Update Submodules
