@@ -1,20 +1,4 @@
 #!/usr/bin/with-contenv bash
 
 LOCAL_IP=$(cat /etc/hostname)
-
-cat <<EOF > /Aria2-Ban/config.js
-module.exports = {
-    "base_url": "http://$LOCAL_IP:$RPC_PORT/jsonrpc",
-    "secret": "$RPC_SECRET",
-    "timeout": 86400,
-    "block_keywords": [
-        "XL",
-        "SD",
-        "XF",
-        "QD",
-        "BN"
-    ]
-}
-EOF
-
-bash /Aria2-Ban/startup.sh
+aria2b -u "http://$LOCAL_IP:$RPC_PORT/jsonrpc" -s "$RPC_SECRET"

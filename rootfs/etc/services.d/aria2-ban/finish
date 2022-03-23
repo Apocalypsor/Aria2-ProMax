@@ -1,3 +1,1 @@
 #!/usr/bin/with-contenv bash
-
-bash /Aria2-Ban/shutdown.sh
