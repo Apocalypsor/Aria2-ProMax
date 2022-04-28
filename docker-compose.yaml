@@ -13,7 +13,7 @@ services:
       UPDATE_TRACKERS: 'true'
       TZ: Asia/Shanghai
       SPECIAL_MODE: rclone
-      CUSTOM_TRACKER_URL: 'https://cdn.jsdelivr.net/gh/Apocalypsor/Aria2-ProMax@tracker/all.list'
+      CUSTOM_TRACKER_URL: 'https://raw.dov.moe/Apocalypsor/Aria2-ProMax/tracker/all.list'
     volumes:
       - ./config:/config
     ports:
