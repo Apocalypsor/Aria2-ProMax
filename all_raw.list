@@ -6,8 +6,8 @@ http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://bt.okmp3.ru:2710/announce
 http://chouchou.top:8080/announce
 http://dht.dhtclub.com:666/announce
+http://fosstorrents.com:6969/announce
 http://i-p-v-6.tk:6969/announce
-http://incine.ru:6969/announce
 http://ipv4announce.sktorrent.eu:6969/announce
 http://ipv6.1337.cx:6969/announce
 http://ipv6.govt.hu:6969/announce
@@ -22,7 +22,6 @@ http://share.camoe.cn:8080/announce
 http://t.acg.rip:6699/announce
 http://t.nyaatracker.com:80/announce
 http://torrentsmd.com:8080/announce
-http://tr.cili001.com:8070/announce
 http://tracker.birkenwald.de:6969/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.dler.com:6969/announce
@@ -37,6 +36,7 @@ http://tracker.openbittorrent.com:80/announce
 http://tracker.opentrackr.org:1337/announce
 http://tracker.qu.ax:6969/announce
 http://tracker.skyts.net:6969/announce
+http://tracker.srv00.com:6969/announce
 http://tracker.swateam.org.uk:2710/announce
 http://tracker2.dler.org:80/announce
 http://trackme.theom.nz:80/announce
@@ -121,7 +121,6 @@ udp://open.free-tracker.ga:6969/announce
 udp://open.publictracker.xyz:6969/announce
 udp://open.stealth.si:80/announce
 udp://open.tracker.ink:6969/announce
-udp://open.xxtor.com:3074/announce
 udp://opentor.org:2710/announce
 udp://opentracker.i2p.rocks:6969/announce
 udp://p4p.arenabg.com:1337/announce
@@ -129,6 +128,7 @@ udp://private.anonseed.com:6969/announce
 udp://psyco.fr:6969/announce
 udp://public-tracker.ml:6969/announce
 udp://public.publictracker.xyz:6969/announce
+udp://public.tracker.vraphim.com:6969/announce
 udp://qtstm32fan.ru:6969/announce
 udp://rep-art.ynh.fr:6969/announce
 udp://retracker.hotplug.ru:2710/announce
@@ -994,3 +994,7 @@ http://97.117.101.163:9000/announce
 http://dht.dhtclub.com:666/announce
 http://192.9.228.30:6699/announce
 http://83.6.211.179:6969/announce
+https://ttk.pp.ua/announce
+https://hcbt.pp.ua/announce
+http://tracker.shittyurl.org:80/announce
+https://tracker.shittyurl.org:443/announce
