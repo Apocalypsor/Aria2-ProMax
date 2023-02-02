@@ -1,3 +1,4 @@
+http://00.xxtor.com:443/announce
 http://1337.abcvg.info:80/announce
 http://dht.dhtclub.com:666/announce
 http://i-p-v-6.tk:6969/announce
@@ -6,11 +7,11 @@ http://ipv6.govt.hu:6969/announce
 http://nyaa.tracker.wf:7777/announce
 http://open-v6.demonoid.ch:6969/announce
 http://open.acgnxtracker.com:80/announce
-http://open.tracker.ink:6969/announce
 http://p2p.0g.cx:6969/announce
 http://share.camoe.cn:8080/announce
 http://t.nyaatracker.com:80/announce
 http://torrentsmd.com:8080/announce
+http://tr.cili001.com:8070/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
@@ -36,8 +37,8 @@ https://tracker.loligirl.cn:443/announce
 https://tracker.mlsub.net:443/announce
 https://tracker.nanoha.org:443/announce
 https://tracker.tamersunion.org:443/announce
-https://tracker.tvgc.win:443/announce
 https://tracker1.520.jp:443/announce
+https://trackers.mlsub.net:443/announce
 https://trackme.theom.nz:443/announce
 udp://6ahddutb1ucc3cp.ru:6969/announce
 udp://9.rarbg.com:2810/announce
@@ -88,7 +89,6 @@ udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://tracker.cyberia.is:6969/announce
-udp://tracker.dler.org:6969/announce
 udp://tracker.jonaslsa.com:6969/announce
 udp://tracker.leech.ie:1337/announce
 udp://tracker.moeking.me:6969/announce
@@ -100,13 +100,13 @@ udp://tracker.skynetcloud.site:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker.theoks.net:6969/announce
 udp://tracker.torrent.eu.org:451/announce
-udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker2.dler.com:80/announce
 udp://tracker6.lelux.fi:6969/announce
 udp://trackerb.jonaslsa.com:6969/announce
 udp://uploads.gamecoast.net:6969/announce
 udp://v1046920.hosted-by-vdsina.ru:6969/announce
 udp://www.peckservers.com:9000/announce
+udp://zecircle.xyz:6969/announce
 ws://hub.bugout.link:80/announce
 wss://tracker.openwebtorrent.com:443/announce
 http://tracker.gbitt.info/announce
