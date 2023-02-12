@@ -4,13 +4,11 @@ http://207.241.231.226:6969/announce
 http://[2001:1b10:1000:8101:0:242:ac11:2]:6969/announce
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 http://bt.okmp3.ru:2710/announce
-http://bt1.letpo.com:80/announce
-http://chouchou.top:8080/announce
 http://dht.dhtclub.com:666/announce
-http://fosstorrents.com:6969/announce
 http://i-p-v-6.tk:6969/announce
 http://ipv6.1337.cx:6969/announce
 http://ipv6.govt.hu:6969/announce
+http://movies.zsw.ca:6969/announce
 http://nyaa.tracker.wf:7777/announce
 http://open-v6.demonoid.ch:6969/announce
 http://open.acgnxtracker.com:80/announce
@@ -19,18 +17,19 @@ http://p2p.0g.cx:6969/announce
 http://retracker.hotplug.ru:2710/announce
 http://share.camoe.cn:8080/announce
 http://t.acg.rip:6699/announce
+http://t.nyaatracker.com:80/announce
 http://torrentsmd.com:8080/announce
 http://tr.cili001.com:8070/announce
 http://tracker.birkenwald.de:6969/announce
 http://tracker.bt4g.com:2095/announce
 http://tracker.dler.com:6969/announce
 http://tracker.dler.org:6969/announce
+http://tracker.edkj.club:6969/announce
 http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.k.vu:6969/announce
 http://tracker.mywaifu.best:6969/announce
-http://tracker.openbittorrent.com:80/announce
 http://tracker.opentrackr.org:1337/announce
 http://tracker.qu.ax:6969/announce
 http://tracker.skyts.net:6969/announce
@@ -121,7 +120,6 @@ udp://p4p.arenabg.com:1337/announce
 udp://private.anonseed.com:6969/announce
 udp://psyco.fr:6969/announce
 udp://public.publictracker.xyz:6969/announce
-udp://public.tracker.vraphim.com:6969/announce
 udp://qtstm32fan.ru:6969/announce
 udp://rep-art.ynh.fr:6969/announce
 udp://retracker.hotplug.ru:2710/announce
@@ -137,6 +135,7 @@ udp://tamas3.ynh.fr:6969/announce
 udp://thagoat.rocks:6969/announce
 udp://thouvenin.cloud:6969/announce
 udp://torrents.artixlinux.org:6969/announce
+udp://tr.bangumi.moe:6969/announce
 udp://tr.cili001.com:8070/announce
 udp://tracker-udp.gbitt.info:80/announce
 udp://tracker.4.babico.name.tr:3131/announce
@@ -184,7 +183,6 @@ udp://v2.iperson.xyz:6969/announce
 udp://wepzone.net:6969/announce
 udp://www.peckservers.com:9000/announce
 udp://www.torrent.eu.org:451/announce
-udp://z.mercax.com:53/announce
 udp://zecircle.xyz:6969/announce
 ws://hub.bugout.link:80/announce
 wss://tracker.openwebtorrent.com:443/announce
@@ -1008,3 +1006,4 @@ udp://207.241.231.226:6969/announce
 udp://93.158.213.92:1337//announce
 udp://185.181.60.67:80/announce
 udp://tracker.yangxiaoguozi.cn:6969/announce
+http://158.101.137.177:6969/announce
