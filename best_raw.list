@@ -4,6 +4,7 @@ http://nyaa.tracker.wf:7777/announce
 http://open.acgnxtracker.com:80/announce
 http://p2p.0g.cx:6969/announce
 http://share.camoe.cn:8080/announce
+http://t.nyaatracker.com:80/announce
 http://torrentsmd.com:8080/announce
 http://tr.cili001.com:8070/announce
 http://tracker.bt4g.com:2095/announce
@@ -77,7 +78,6 @@ udp://tracker.artixlinux.org:6969/announce
 udp://tracker.auctor.tv:6969/announce
 udp://tracker.beeimg.com:6969/announce
 udp://tracker.birkenwald.de:6969/announce
-udp://tracker.bitsearch.to:1337/announce
 udp://tracker.ccp.ovh:6969/announce
 udp://tracker.cyberia.is:6969/announce
 udp://tracker.dler.com:6969/announce
@@ -94,7 +94,6 @@ udp://tracker.skynetcloud.site:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker.srv00.com:6969/announce
 udp://tracker.torrent.eu.org:451/announce
-udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker6.lelux.fi:6969/announce
 udp://uploads.gamecoast.net:6969/announce
 udp://v1046920.hosted-by-vdsina.ru:6969/announce
@@ -141,9 +140,9 @@ udp://ipv4.tracker.harry.lu:80/announce
 https://tracker2.ctix.cn:443/announce
 https://tracker1.520.jp:443/announce
 http://vps02.net.orel.ru:80/announce
-https://tracker.tamersunion.org:443/announce
 udp://tracker.moeking.me:6969/announce
-udp://tracker1.bt.moack.co.kr:80/announce
-udp://tracker.bitsearch.to:1337/announce
-udp://tracker.altrosky.nl:6969/announce
+https://tracker.tamersunion.org:443/announce
 udp://tracker-udp.gbitt.info:80/announce
+https://tracker.gbitt.info:443/announce
+http://tracker.gbitt.info:80/announce
+udp://explodie.org:6969/announce
