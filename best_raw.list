@@ -1,8 +1,8 @@
 http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
 http://nyaa.tracker.wf:7777/announce
+http://open.tracker.ink:6969/announce
 http://p2p.0g.cx:6969/announce
-http://parag.rs:6969/announce
 http://share.camoe.cn:8080/announce
 http://t.acg.rip:6699/announce
 http://t.nyaatracker.com:80/announce
@@ -14,8 +14,8 @@ http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.k.vu:6969/announce
 http://tracker.mywaifu.best:6969/announce
-http://tracker.openbittorrent.com:80/announce
 http://tracker.renfei.net:8080/announce
+http://tracker.skyts.net:6969/announce
 http://tracker.tfile.co:80/announce
 http://v6-tracker.0g.cx:6969/announce
 http://www.all4nothin.net:80/announce.php
@@ -143,7 +143,7 @@ udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://tracker.altrosky.nl:6969/announce
 udp://tracker-udp.gbitt.info:80/announce
-udp://movies.zsw.ca:6969/announce
+udp://p4p.arenabg.com:1337/announce
 udp://explodie.org:6969/announce
 https://tracker.gbitt.info:443/announce
 http://tracker.gbitt.info:80/announce
