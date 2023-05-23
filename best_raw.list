@@ -2,6 +2,7 @@ http://1337.abcvg.info:80/announce
 http://bt.okmp3.ru:2710/announce
 http://montreal.nyap2p.com:8080/announce
 http://nyaa.tracker.wf:7777/announce
+http://open.acgnxtracker.com:80/announce
 http://p2p.0g.cx:6969/announce
 http://share.camoe.cn:8080/announce
 http://shogiroom.com:6969/announce
@@ -21,6 +22,7 @@ http://www.all4nothin.net:80/announce.php
 http://www.wareztorrent.com:80/announce
 https://1337.abcvg.info:443/announce
 https://opentracker.i2p.rocks:443/announce
+https://t1.hloli.org:443/announce
 https://tr.burnabyhighstar.com:443/announce
 https://tracker.foreverpirates.co:443/announce
 https://tracker.gbitt.info:443/announce
@@ -32,6 +34,7 @@ https://tracker.lilithraws.org:443/announce
 https://tracker.loligirl.cn:443/announce
 https://tracker.tamersunion.org:443/announce
 https://tracker1.520.jp:443/announce
+udp://6ahddutb1ucc3cp.ru:6969/announce
 udp://9.rarbg.com:2810/announce
 udp://aarsen.me:6969/announce
 udp://acxx.de:6969/announce
@@ -85,7 +88,6 @@ udp://tracker.pimpmyworld.to:6969/announce
 udp://tracker.skyts.net:6969/announce
 udp://tracker.srv00.com:6969/announce
 udp://tracker.theoks.net:6969/announce
-udp://tracker.tiny-vps.com:6969/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://tracker.trojangogogo.site:8080/announce
 udp://tracker1.bt.moack.co.kr:80/announce
@@ -129,16 +131,16 @@ udp://tracker.openbittorrent.com:6969/announce
 http://tracker.openbittorrent.com:80/announce
 udp://9.rarbg.com:2810/announce
 udp://open.demonii.com:1337/announce
-udp://open.stealth.si:80/announce
 udp://exodus.desync.com:6969/announce
+udp://open.stealth.si:80/announce
 udp://tracker.torrent.eu.org:451/announce
 udp://tracker.moeking.me:6969/announce
 udp://tracker.bitsearch.to:1337/announce
 udp://tracker1.bt.moack.co.kr:80/announce
-udp://tracker.tiny-vps.com:6969/announce
-udp://tracker.theoks.net:6969/announce
 udp://tracker.altrosky.nl:6969/announce
-udp://p4p.arenabg.com:1337/announce
 udp://movies.zsw.ca:6969/announce
 udp://explodie.org:6969/announce
-https://tracker.tamersunion.org:443/announce
+https://tr.burnabyhighstar.com:443/announce
+http://open.acgnxtracker.com:80/announce
+udp://uploads.gamecoast.net:6969/announce
+udp://tracker.theoks.net:6969/announce
