@@ -13,6 +13,7 @@ http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.mywaifu.best:6969/announce
+http://tracker.openbittorrent.com:80/announce
 http://tracker.renfei.net:8080/announce
 http://tracker.tfile.co:80/announce
 http://v6-tracker.0g.cx:6969/announce
@@ -34,7 +35,6 @@ udp://1c.premierzal.ru:6969/announce
 udp://6.pocketnet.app:6969/announce
 udp://aarsen.me:6969/announce
 udp://acxx.de:6969/announce
-udp://anzix.net:6969/announce
 udp://bt1.archive.org:6969/announce
 udp://city21.pk:6969/announce
 udp://d40969.acod.regrucolo.ru:6969/announce
