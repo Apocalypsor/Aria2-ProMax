@@ -11,10 +11,9 @@ http://bt.okmp3.ru:2710/announce
 http://montreal.nyap2p.com:8080/announce
 http://nyaa.tracker.wf:7777/announce
 http://open.acgnxtracker.com:80/announce
-http://open.tracker.ink:6969/announce
+http://p2p.0g.cx:6969/announce
 http://retracker.hotplug.ru:2710/announce
 http://share.camoe.cn:8080/announce
-http://shubt.net:2710/announce
 http://t.acg.rip:6699/announce
 http://t.nyaatracker.com:80/announce
 http://torrentsmd.com:8080/announce
@@ -28,14 +27,11 @@ http://tracker.files.fm:6969/announce
 http://tracker.gbitt.info:80/announce
 http://tracker.ipv6tracker.ru:80/announce
 http://tracker.mywaifu.best:6969/announce
-http://tracker.nartlof.com.br:6969/announce
 http://tracker.opentrackr.org:1337/announce
 http://tracker.qu.ax:6969/announce
 http://tracker.renfei.net:8080/announce
 http://tracker.sheesh.rip:6969/announce
-http://tracker.skyts.net:6969/announce
 http://tracker.swateam.org.uk:2710/announce
-http://tracker1.bt.moack.co.kr:80/announce
 http://tracker4.itzmx.com:2710/announce
 http://v6-tracker.0g.cx:6969/announce
 http://wepzone.net:6969/announce
@@ -132,7 +128,6 @@ udp://soundmovie.ru:6969/announce
 udp://ssb14.nohost.me:6969/announce
 udp://static.54.161.216.95.clients.your-server.de:6969/announce
 udp://su-data.com:6969/announce
-udp://sx.xxtor.com:6969/announce
 udp://t.133335.xyz:6969/announce
 udp://t.zerg.pw:6969/announce
 udp://tamas3.ynh.fr:6969/announce
@@ -148,6 +143,7 @@ udp://tracker.4.babico.name.tr:3131/announce
 udp://tracker.artixlinux.org:6969/announce
 udp://tracker.auctor.tv:6969/announce
 udp://tracker.birkenwald.de:6969/announce
+udp://tracker.bittor.pw:1337/announce
 udp://tracker.ccp.ovh:6969/announce
 udp://tracker.cubonegro.lol:6969/announce
 udp://tracker.cyberia.is:6969/announce
@@ -1247,6 +1243,7 @@ http://www.arabp2p.net:2052/f5a1e35785c9f3885fd54f34b6e262b8/announce
 http://107.189.7.143:6969/announce
 http://tracker.gdp.pw:900/announce
 http://reisub.nsupdate.info:6969/announce
+http://tracker.vanitycore.co:6969/announce
 udp://tracker.opentrackr.org:1337/announce
 https://tracker2.ctix.cn:443/announce
 https://tracker1.520.jp:443/announce
