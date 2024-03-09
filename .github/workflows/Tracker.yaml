@@ -17,11 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Update Tracker
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         ref: tracker
         token: ${{ secrets.REPO_TOKEN }}
-    - name: Smartdns GFWList
+    - name: Update Trackers
       run: |
         echo > /tmp/blank
 
@@ -37,7 +37,7 @@ jobs:
         cat /tmp/best /tmp/blank /tmp/AT_best /tmp/blank /tmp/trackerslist_best | uniq | sed ":a;N;s/\n/,/g;ta" | sed -e "s/,,/,/g" -e "s/,$//g" | tr -d "\n" > best.list
         cat /tmp/best /tmp/blank /tmp/AT_best /tmp/blank /tmp/trackerslist_best | uniq | sed ":a;N;s/\n/,/g;ta" | sed -e "s/,,/,/g" -e "s/,$//g" | sed -e "s/,/\n/g" > best_raw.list
     - name: Push
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         branch: tracker
         commit_message: Update Trackers
