@@ -30,9 +30,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./Dockerfile
           platforms: linux/amd64, linux/arm64
           push: true
-          tags: |
-            ghcr.io/apocalypsor/aria2-promax:latest
+          tags: ghcr.io/apocalypsor/aria2-promax:latest
