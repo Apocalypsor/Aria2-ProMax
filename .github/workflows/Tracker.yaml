@@ -15,12 +15,14 @@ on:
 jobs:
   Update-Tacker:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     name: Update Tracker
     steps:
     - uses: actions/checkout@v4
       with:
         ref: tracker
-        token: ${{ secrets.REPO_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
     - name: Update Trackers
       run: |
         echo > /tmp/blank
